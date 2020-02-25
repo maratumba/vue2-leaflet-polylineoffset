@@ -49,6 +49,20 @@ export default {
 }
 ```
 
+or you can import it as `<l-polyline>` since it is a subclass with the addition of the `offset` parameter:
+```js
+import LPolyline from 'vue2-leaflet-polylineoffset'
+...
+export default {
+    ...
+    components: {
+    LPolyline,
+    ...
+    },
+    ...
+}
+```
+
 #### option 2
 
 At main Vue configuration, this will make the component available to all templates in your app
